@@ -1,0 +1,24 @@
+.socials {
+  display: flex;
+  list-style: none;
+}
+.socials__item {
+}
+.socials__item:not(:last-child) {
+  margin-right: 18px;
+}
+.socials__link {
+  width: 44px;
+  height: 44px;
+  background-color: #131212;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials__icon {
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+}

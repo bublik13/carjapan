@@ -8,22 +8,97 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="body js-body">
     <svg display="none">
         <symbol id="telegram" viewBox="0 0 33 33">
-         <path  d="M11.5245 17.6814L22.762 27.5689C22.8919 27.6839 23.0495 27.7631 23.2192 27.7987C23.3889 27.8344 23.565 27.8253 23.7302 27.7724C23.8954 27.7194 24.0439 27.6244 24.1613 27.4967C24.2786 27.369 24.3607 27.2129 24.3995 27.0439L29.0995 6.51888C29.139 6.34212 29.1296 6.15798 29.0725 5.9861C29.0155 5.81423 28.9128 5.66108 28.7755 5.54301C28.6381 5.42494 28.4713 5.34638 28.2929 5.31571C28.1144 5.28504 27.9309 5.30342 27.762 5.36888L4.68705 14.4314C3.76205 14.7939 3.88705 16.1439 4.86205 16.3439L11.5245 17.6814Z" fill="currentColor"></path>
-       </symbol>
-        <symbol id="whatsApp" viewBox="0 0 33 33" >
-            <path d="M6.502 22.9439C5.01311 20.432 4.49231 17.4629 5.03738 14.5941C5.58245 11.7254 7.15591 9.15422 9.46235 7.36335C11.7688 5.57249 14.6496 4.68508 17.564 4.86772C20.4783 5.05037 23.2258 6.2905 25.2906 8.35531C27.3554 10.4201 28.5956 13.1676 28.7782 16.082C28.9609 18.9963 28.0735 21.8771 26.2826 24.1836C24.4917 26.49 21.9206 28.0635 19.0518 28.6086C16.1831 29.1536 13.214 28.6328 10.702 27.1439L6.552 28.3189C6.38197 28.3687 6.20169 28.3717 6.03007 28.3278C5.85844 28.2839 5.70179 28.1947 5.57652 28.0694C5.45126 27.9442 5.362 27.7875 5.3181 27.6159C5.27419 27.4442 5.27727 27.264 5.327 27.0939L6.502 22.9439Z" fill="currentColor"></path>
-       </symbol>  
-     
-        
-        
+            <path d="M11.5245 17.6814L22.762 27.5689C22.8919 27.6839 23.0495 27.7631 23.2192 27.7987C23.3889 27.8344 23.565 27.8253 23.7302 27.7724C23.8954 27.7194 24.0439 27.6244 24.1613 27.4967C24.2786 27.369 24.3607 27.2129 24.3995 27.0439L29.0995 6.51888C29.139 6.34212 29.1296 6.15798 29.0725 5.9861C29.0155 5.81423 28.9128 5.66108 28.7755 5.54301C28.6381 5.42494 28.4713 5.34638 28.2929 5.31571C28.1144 5.28504 27.9309 5.30342 27.762 5.36888L4.68705 14.4314C3.76205 14.7939 3.88705 16.1439 4.86205 16.3439L11.5245 17.6814Z"  stroke="currentColor" fill="none"></path>
+            <path d="M11.5244 17.6814L28.5369 5.39392" stroke="currentColor" fill="none"></path>
+            <path d="M17.1369 22.6189L13.2369 26.5189C13.0978 26.6602 12.9198 26.7569 12.7255 26.7968C12.5313 26.8367 12.3296 26.8179 12.146 26.7429C11.9625 26.6679 11.8054 26.54 11.6947 26.3754C11.584 26.2109 11.5247 26.0172 11.5244 25.8189V17.6814" stroke="currentColor" fill="none"></path>
+        </symbol>
+        <symbol id="whatsapp" viewBox="0 0 33 33" >
+            <path d="M6.502 22.9439C5.01311 20.432 4.49231 17.4629 5.03738 14.5941C5.58245 11.7254 7.15591 9.15422 9.46235 7.36335C11.7688 5.57249 14.6496 4.68508 17.564 4.86772C20.4783 5.05037 23.2258 6.2905 25.2906 8.35531C27.3554 10.4201 28.5956 13.1676 28.7782 16.082C28.9609 18.9963 28.0735 21.8771 26.2826 24.1836C24.4917 26.49 21.9206 28.0635 19.0518 28.6086C16.1831 29.1536 13.214 28.6328 10.702 27.1439L6.552 28.3189C6.38197 28.3687 6.20169 28.3717 6.03007 28.3278C5.85844 28.2839 5.70179 28.1947 5.57652 28.0694C5.45126 27.9442 5.362 27.7875 5.3181 27.6159C5.27419 27.4442 5.27727 27.264 5.327 27.0939L6.502 22.9439Z" stroke="currentColor" fill="none"></path>
+            <path d="M19.8397 23.8189C18.5239 23.8222 17.2204 23.5654 16.0042 23.0634C14.7879 22.5614 13.6828 21.824 12.7524 20.8936C11.822 19.9632 11.0846 18.8582 10.5826 17.6419C10.0806 16.4256 9.82388 15.1222 9.82718 13.8064C9.83049 12.8803 10.2007 11.9933 10.8567 11.3396C11.5127 10.6859 12.4011 10.3189 13.3272 10.3189V10.3189C13.48 10.3177 13.6303 10.3576 13.7623 10.4346C13.8942 10.5116 14.003 10.6228 14.0772 10.7564L15.5397 13.3064C15.6267 13.4614 15.6713 13.6366 15.6691 13.8143C15.6669 13.992 15.618 14.1661 15.5272 14.3189L14.3522 16.2814C14.954 17.6202 16.0258 18.692 17.3647 19.2939L19.3272 18.1189C19.48 18.0281 19.654 17.9792 19.8318 17.977C20.0095 17.9748 20.1847 18.0194 20.3397 18.1064L22.8897 19.5689C23.0233 19.643 23.1344 19.7518 23.2114 19.8838C23.2884 20.0158 23.3284 20.1661 23.3272 20.3189C23.3239 21.244 22.9558 22.1304 22.3029 22.7857C21.6499 23.441 20.7648 23.8123 19.8397 23.8189V23.8189Z" stroke="currentColor" fill="none"></path>
+        </symbol>  
      </svg>
-   
+     <header class="header">
+        <div class="header__container ">
+            <div class="header__top">
+                <a href="#" class="header__logo logo">
+                <img src="img/header/logo.svg" alt="logo" class="logo__img" width="40" height="40">
+                </a>
+                <div class="header__contact">
+                    <ul class="header__socials socials">
+                        <li class="socials__item">    
+                          <a title="telegram" class="socials__link" href="#">
+                            <svg aria-hidden="true" class="socials__icon">
+                              <use xlink:href="#telegram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="socials__item"> 
+                          <a title="whatsapp" class="socials__link" href="#">
+                            <svg aria-hidden="true" class="socials__icon">
+                              <use xlink:href="#whatsapp"></use>
+                            </svg>
+                          </a>
+                        </li>
+                    </ul>
+                    <a class="header__tel tel" href="tel:+78005553555">
+                        8-800-555-3555
+                    </a>
+                    <button type="button" class="header__button button buttbon--bg-purple">Связаться с нами</button>
+                </div>
+            </div>
+            <nav class="nav header__nav js-nav">
+              <ul class="nav__list nav__list--column">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Аукцион</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Услуги</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Цены</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">О компании</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Отзывы</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button type="button" aria-label="close" class="burger header__burger js-burger">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </button>
+            <div class="header__wrap">
+                <h1 class="header__title title">Доставка автомобилей с японских аукционов</h1>
+                <p class="header__subtitle subtitle">
+                    Поможем купить. Оформим все документы. Достависм авто к вашему дому
+                </p>
+                <button type="button" class="header__button button buttbon--bg-white">Расчитать стоимость</button>
+            </div>
+        </div>
+    </header>
 
     <!-- подключаем js -->
     <script src="js/main.js"></script>
+    <script>     
+        const body = document.querySelector('.js-body');
+        const nav = document.querySelector('.js-nav');
+        const burger = document.querySelector('.js-burger');
+  
+        burger.addEventListener('click', ()=>{  
+          burger.classList.toggle('burger--active');
+          nav.classList.toggle('header__nav--active');
+          body.classList.toggle('body--lock');
+        });
+    </script>
 </body>
 
 </html>

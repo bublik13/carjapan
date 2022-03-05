@@ -2,4 +2,19 @@
 $body-bg: #ff55;
 
 //fonts
-$basic-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+$basic-family: "Roboto", "Arial", "Helvetica", sans-serif;
+
+//container
+$container-min-width: 320px;
+$container-max-width: 1920px;
+
+//media(изменить)Корректное отображение на экранах: 1920, 1600, 1366, 760, 320
+$xs: 350px;
+$sm-s: 475px;
+$sm: 640px;
+$md-l: 710px;
+$md: 777px;
+$md-s: 940px;
+$lg-s: 1100px;
+$lg-l: 1210px;
+$lg: 1440px;

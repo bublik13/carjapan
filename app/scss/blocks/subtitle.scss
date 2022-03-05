@@ -1,0 +1,8 @@
+.subtitle{
+    @include font(42px, 50px, 500, $basic-family);
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    @include media($sm) {
+        @include font(22px, 30px, 500, $basic-family);
+      }
+}

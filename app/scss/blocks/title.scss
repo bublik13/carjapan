@@ -1,0 +1,8 @@
+.title {
+  @include font(62px, 74px, 700, $basic-family);
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  @include media($sm) {
+    @include font(30px, 35px, 700, $basic-family);
+  }
+}

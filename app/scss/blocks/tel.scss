@@ -1,0 +1,6 @@
+.tel {
+  @include font(32px, 38px, 500, $basic-family);
+  color: #131212;
+  text-decoration: none;
+  display: block;
+}

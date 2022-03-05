@@ -1,0 +1,31 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  border: none;
+  transition: ease-out 0.2s;
+  width: 100%;
+  @include font(42px, 50px, 500, $basic-family);
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+.buttbon--bg-purple {
+  background-color: #833372;
+  @include font(16px, 19px, 700, $basic-family);
+  color: #ffffff;
+  padding: 22px;
+  max-width: 300px;
+}
+.buttbon--bg-white {
+  background-color: #ffffff;
+  @include font(26px, 31px, 700, $basic-family);
+  color: #1f2024;
+  padding: 30px;
+  max-width: 356px;
+  @include media($sm) {
+    max-width: 280px;
+    padding: 20px;
+    @include font(16px, 19px, 700, $basic-family);
+  }
+}
