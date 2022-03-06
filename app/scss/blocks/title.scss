@@ -6,3 +6,14 @@
     @include font(30px, 35px, 700, $basic-family);
   }
 }
+.title--color-black {
+  @include font(62px, 80px, 600, $basic-family);
+  color: #1f2024;
+  @include media($sm) {
+    @include font(40px, 35px, 600, $basic-family);
+  }
+}
+.title--color-black-xs {
+  @include font(30px, 39px, 500, $basic-family);
+  color: #131212;
+}

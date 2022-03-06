@@ -10,14 +10,14 @@
   text-align: center;
   border-radius: 20px;
 }
-.buttbon--bg-purple {
+.button--bg-purple {
   background-color: #833372;
   @include font(16px, 19px, 700, $basic-family);
   color: #ffffff;
   padding: 22px;
   max-width: 300px;
 }
-.buttbon--bg-white {
+.button--bg-white {
   background-color: #ffffff;
   @include font(26px, 31px, 700, $basic-family);
   color: #1f2024;

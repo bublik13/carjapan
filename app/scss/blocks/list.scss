@@ -1,0 +1,37 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 75px 67px;
+  @include media($lg-m) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include media($md-s) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 65px 57px;
+  }
+  @include media($sm) {
+    grid-gap: 45px 27px;
+  }
+  @include media($sm-s) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+.list__item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list__wrap {
+}
+.list__img {
+  width: 100px;
+  height: 100px;
+  color: #833372;
+}
+.list__title {
+}
+.list__desc {
+  // max-width: 296px;
+}
